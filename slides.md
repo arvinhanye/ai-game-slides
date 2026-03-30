@@ -240,7 +240,7 @@ h1 {
 <ul class="space-y-4">
 <li class="flex items-center gap-3"><div class="w-2 h-2 bg-cyan-400 rotate-45"></div><div><div class="text-[13px] font-bold">《看门狗：军团》</div><div class="text-[10px] opacity-50">Watch Dogs: Legion (技术起源)</div></div></li>
 <li class="flex items-center gap-3"><div class="w-2 h-2 bg-cyan-400 rotate-45"></div><div><div class="text-[13px] font-bold">《刺客信条》系列</div><div class="text-[10px] opacity-50">Assassin's Creed (核心部署)</div></div></li>
-<li class="flex items-center gap-3"><div class="w-2 h-2 bg-cyan-400 rotate-45"></div><div><div class="text-[13px] font-bold">《极道车神》等</div><div class="text-[10px] opacity-50">Ubisoft La Forge 实验室孵化</div></div></li>
+<li class="flex items-center gap-3"><div class="w-2 h-2 bg-cyan-400 rotate-45"></div><div><div class="text-[13px] font-bold">《幽灵行动》等</div><div class="text-[10px] opacity-50">Ubisoft La Forge 实验室孵化</div></div></li>
 </ul>
 <div class="mt-6 pt-4 border-t border-white/10">
 <div class="text-[10px] text-cyan-300 animate-pulse">>> 效率反馈：</div>
