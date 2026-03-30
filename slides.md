@@ -1,10 +1,8 @@
 ---
 theme: default
-# ⚡️ 核心：引入刚才简化后的 CSS 文件
+base: /ai-game-slides/
 css:
   - ./style.css
-# ⚡️ 核心：移除 YAML 块里的 background 配置
-# background: /bg.jpg 👈 删掉这一行
 class: text-center
 highlighter: shiki
 lineNumbers: true
