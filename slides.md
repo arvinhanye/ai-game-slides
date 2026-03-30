@@ -25,7 +25,7 @@ title: AI x Game Industry
   </div>
   <div v-click class="leading-tight">
     <div class="font-mono text-white text-lg">Group_05</div>
-    <div class="text-sm text-white opacity-50 uppercase tracking-widest font-light">小组成员：//////</div>
+    <div class="text-sm text-white opacity-50 uppercase tracking-widest font-light">汇报人：蒋韩烨</div>
   </div>
 </div>
 
