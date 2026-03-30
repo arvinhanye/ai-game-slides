@@ -1,0 +1,42 @@
+/* style.css */
+
+/* 1. 基础布局：让背景可被变量控制 */
+.slidev-layout {
+  /* 默认使用全局深色背景 */
+  background-image: url(/bg-global.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* 2. 精准定位第一页并强制换图 */
+[data-slidev-no="1"] .slidev-layout,
+#slide-1 {
+  background-image: url(/bg.jpg) !important;
+  /* 封面通常不需要固定背景 */
+  background-attachment: scroll !important; 
+}
+
+/* 3. ⚡️ 核心突破：强力霓虹标题样式 (Power Glow) */
+.neon-title {
+  letter-spacing: 0.15em;
+  /* ⚡️ 核心：多层复合光晕叠加 */
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 1),       /* 1. 最内层：强力纯白 (核心清晰度) */
+    0 0 10px rgba(255, 255, 255, 0.8),    /* 2. 中间层：软白光晕 */
+    0 0 20px rgba(34, 211, 238, 0.6),     /* 3. 外层：高亮蓝光 (氛围感) */
+    0 0 35px rgba(34, 211, 238, 0.3),     /* 4. 最外层：淡蓝光晕 */
+    0 0 5px rgba(0, 0, 0, 0.8);           /* 5. ⚡️ 暗色底衬：压暗文字下方的背景 (非常重要) */
+}
+
+/* 4. ⚡️ 新增：为封面主标题加上一个深色底衬 */
+[data-slidev-no="1"] h1 {
+  /* 在标题后加一个极其模糊的黑色阴影，物理压暗背景 */
+  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.6)) !important;
+}
+
+/* 5. ⚡️ 可选：让“课堂汇报”小字也清晰 */
+[data-slidev-no="1"] .v-click {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
