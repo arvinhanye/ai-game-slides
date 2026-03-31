@@ -15,7 +15,7 @@ title: AI x Game Industry
 
 # <span v-after class="text-6xl font-bold text-white neon-title">AI 与游戏行业：重塑边界</span>
 
-<div v-click class="mt-4 text-white opacity-80 text-2xl tracking-widest text-shadow-md">
+<div v-click class="mt-4 text-black opacity-80 text-2xl tracking-widest text-shadow-md">
  课堂汇报
 </div>
 
